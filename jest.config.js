@@ -1,1 +1,1 @@
-module.exports={testEnvironment:'node',roots:['<rootDir>/src'],testMatch:['**/*.test.ts'],transform:{'^.+\\.tsx?$':['babel-jest',{presets:['babel-preset-expo']}]}};
+module.exports = { preset: 'jest-expo', roots: ['<rootDir>/src'], testMatch: ['**/*.test.ts'] };\n
